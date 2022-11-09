@@ -1,0 +1,57 @@
+
+/* # General-----*/
+body {
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-size: 1rem;
+  color: #505050;
+  letter-spacing: -0.01rem;
+  background-color: #f6f6f1;
+}
+
+h1 {
+  margin: 0 0 0.625rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  color: #505050;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  opacity: 1;
+  transition: all 2s ease-out;
+}
+
+h2 {
+  color: #505050;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  opacity: 1;
+}
+
+
+
+
+/* basic selectors*/
+
+
+/* combinator selectors */
+div > button {
+  background-color: rgb(57, 163, 66);
+}
+
+/* pseudo-class selector */
+a:visited {
+  color: rgb(14, 27, 85);
+}
+
+/* pseudo-element selector */
+p::first-letter {font-weight: bold;}
+
+
+/* Try transitioning font size, colour, opacity and size. */
+h1:hover {
+  font-size: 36px;
+  background-color: gold;
+  opacity: 0.5;
+}
+
+
